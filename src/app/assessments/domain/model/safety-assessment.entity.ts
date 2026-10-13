@@ -1,6 +1,9 @@
 import {DateTime} from '../../../shared/domain/model/date-time';
 import {BaseEntity} from '../../../shared/domain/model/base-entity';
-
+/**
+ * @remarks SafetyAssessment entity represents a safety assessment of a vehicle model conducted by an inspection center. It contains information about the assessment, including the associated inspection center, vehicle model, risk score, and the date of assessment.
+ * @author Carolina Navarro Aldoradin
+ */
 export class SafetyAssessment implements BaseEntity {
   readonly #id: number;
   readonly #inspectionCenterId: number;

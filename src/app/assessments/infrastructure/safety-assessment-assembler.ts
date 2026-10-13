@@ -2,7 +2,9 @@ import {SafetyAssessment} from '../domain/model/safety-assessment.entity';
 import {SafetyAssessmentResource, SafetyAssessmentsResponse} from './safety-assessments-response';
 import {BaseAssembler} from '../../shared/infrastructure/base-assembler';
 import {DateTime} from '../../shared/domain/model/date-time';
-
+/**
+ * @author Carolina Navarro Aldoradin
+ */
 export class SafetyAssessmentAssembler implements BaseAssembler<SafetyAssessment, SafetyAssessmentResource, SafetyAssessmentsResponse> {
   toEntitiesFromResponse(response: SafetyAssessmentsResponse): SafetyAssessment[] {
     return response["safety-assessments"].map((resource) =>

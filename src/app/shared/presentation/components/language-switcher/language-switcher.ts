@@ -2,6 +2,10 @@ import {Component, inject} from '@angular/core';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {TranslateService} from '@ngx-translate/core';
 
+/**
+ * @remarks Language switcher component
+ * @author Carolina Navarro Aldoradin
+ */
 @Component({
   selector: 'app-language-switcher',
   imports: [

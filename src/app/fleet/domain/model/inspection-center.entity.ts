@@ -1,6 +1,8 @@
 import { BaseEntity } from '../../../shared/domain/model/base-entity';
-import {MakeEnum} from './make-enum';
-
+/**
+ * @remarks InspectionCenter entity represents an inspection center that conducts safety assessments of vehicle models. It contains information about the inspection center, including its name, make, and risk threshold.
+ * @author Carolina Navarro Aldoradin
+ */
 export class InspectionCenter implements BaseEntity {
   readonly #id: number;
   readonly #name: string;

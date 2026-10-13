@@ -1,5 +1,8 @@
 import {BaseResource, BaseResponse} from '../../shared/infrastructure/base-response';
 
+/**
+ * @author Carolina Navarro Aldoradin
+ */
 export interface InspectionCentersResponse extends BaseResponse {
   "inspection-centers": InspectionCenterResource[];
 }

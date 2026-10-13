@@ -4,6 +4,11 @@ import { InspectionCenter } from '../domain/model/inspection-center.entity';
 import { InspectionCentersApiEndpoint } from './inspection-centers-api-endpoint';
 import { Observable } from 'rxjs';
 
+/**
+ * @remarks
+ * This class is responsible for providing methods to interact with the Inspection Centers API.
+ * @author Carolina Navarro Aldoradin
+ */
 @Injectable({ providedIn: 'root' })
 export class LearningApi extends BaseApi {
   readonly #inspectionCentersEndpoint = new InspectionCentersApiEndpoint(this.http);

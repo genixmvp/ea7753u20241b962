@@ -5,6 +5,9 @@ import {InspectionCenterResource, InspectionCentersResponse} from './inspection-
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../../environments/environment.development';
 
+/**
+ * @author Carolina Navarro Aldoradin
+ */
 export class InspectionCentersApiEndpoint extends BaseApiEndpoint<InspectionCenter, InspectionCenterResource, InspectionCentersResponse, InspectionCenterAssembler>{
 
   constructor(http: HttpClient) {

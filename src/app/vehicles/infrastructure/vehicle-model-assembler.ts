@@ -2,6 +2,11 @@ import { BaseAssembler } from '../../shared/infrastructure/base-assembler';
 import {VehicleModel} from '../domain/model/vehicle-model.entity';
 import {VehicleModelResource, VehicleModelsResponse} from './vehicle-models-response';
 
+/**
+ * @remarks
+ * The VehicleModelAssembler class is responsible for converting between VehicleModel entities and their corresponding resource representations (VehicleModelResource) as well as handling the conversion of API responses (VehicleModelsResponse) into a list of VehicleModel entities.
+ * @author Carolina Navarro Aldoradin
+ */
 export class VehicleModelAssembler
   implements BaseAssembler<VehicleModel, VehicleModelResource, VehicleModelsResponse>
 {

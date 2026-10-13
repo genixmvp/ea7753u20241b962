@@ -4,6 +4,9 @@ import { SafetyAssessment } from '../domain/model/safety-assessment.entity';
 import { SafetyAssessmentsApiEndpoint } from './safety-assessments-api-endpoint';
 import { Observable } from 'rxjs';
 
+/**
+ * @author Carolina Navarro Aldoradin
+ */
 @Injectable({ providedIn: 'root' })
 export class AssessmentsApi extends BaseApi {
   readonly #safetyAssessmentsEndpoint = new SafetyAssessmentsApiEndpoint(this.http);

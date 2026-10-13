@@ -2,7 +2,9 @@ import {BaseAssembler} from '../../shared/infrastructure/base-assembler';
 import {InspectionCenter} from '../domain/model/inspection-center.entity';
 import {InspectionCenterResource, InspectionCentersResponse} from './inspection-centers-response';
 import {MakeEnum} from '../domain/model/make-enum';
-
+/**
+ * @author Carolina Navarro Aldoradin
+ */
 export class InspectionCenterAssembler implements BaseAssembler<InspectionCenter, InspectionCenterResource, InspectionCentersResponse> {
 
   toEntitiesFromResponse(response: InspectionCentersResponse): InspectionCenter[] {

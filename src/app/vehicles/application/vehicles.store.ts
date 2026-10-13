@@ -4,6 +4,9 @@ import { VehiclesApi } from '../infrastructure/vehicles-api';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { retry } from 'rxjs';
 
+/**
+ * @author Carolina Navarro Aldoradin
+ */
 @Injectable({
   providedIn: 'root',
 })

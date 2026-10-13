@@ -4,6 +4,11 @@ import { VehicleModel } from '../domain/model/vehicle-model.entity';
 import { VehicleModelsApiEndpoint } from './vehicle-model-api-endpoint';
 import { Observable } from 'rxjs';
 
+/**
+ * @remarks
+ * This class is responsible for handling the API for vehicle models. It extends the BaseApi class and provides methods for performing CRUD operations on vehicle models.
+ * @author Carolina Navarro Aldoradin
+ */
 @Injectable({ providedIn: 'root' })
 export class VehiclesApi extends BaseApi {
   readonly #vehicleModelsEndpoint = new VehicleModelsApiEndpoint(this.http);
