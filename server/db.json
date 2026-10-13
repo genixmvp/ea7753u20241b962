@@ -1,0 +1,32 @@
+{
+  "inspection-centers": [
+    { "id": 1, "name": "Los Angeles Inspection Center", "make": "HONDA", "riskThreshold": 70 },
+    { "id": 2, "name": "Dallas Inspection Center", "make": "TOYOTA", "riskThreshold": 65 },
+    { "id": 3, "name": "Chicago Inspection Center", "make": "FORD", "riskThreshold": 60 },
+    { "id": 4, "name": "Atlanta Inspection Center", "make": "NISSAN", "riskThreshold": 75 },
+    { "id": 5, "name": "Miami Inspection Center", "make": "HYUNDAI", "riskThreshold": 50 },
+    { "id": 6, "name": "New York Inspection Center", "make": "BMW", "riskThreshold": 80 }
+  ],
+  "safety-assessments": [
+    { "id": 1, "inspectionCenterId": 1, "modelId": 1861, "modelName": "Accord", "riskScore": 38, "assessedAt": "2026-08-04T09:00:00Z" },
+    { "id": 2, "inspectionCenterId": 1, "modelId": 1863, "modelName": "Civic", "riskScore": 87, "assessedAt": "2026-08-06T10:15:00Z" },
+    { "id": 3, "inspectionCenterId": 1, "modelId": 1865, "modelName": "CR-V", "riskScore": 63, "assessedAt": "2026-08-10T11:30:00Z" },
+    { "id": 4, "inspectionCenterId": 2, "modelId": 2207, "modelName": "Camry", "riskScore": 55, "assessedAt": "2026-08-12T12:45:00Z" },
+    { "id": 5, "inspectionCenterId": 2, "modelId": 2208, "modelName": "Corolla", "riskScore": 70, "assessedAt": "2026-08-14T14:00:00Z" },
+    { "id": 6, "inspectionCenterId": 3, "modelId": 2021, "modelName": "C-MAX", "riskScore": 72, "assessedAt": "2026-08-18T15:15:00Z" },
+    { "id": 7, "inspectionCenterId": 4, "modelId": 1900, "modelName": "Altima", "riskScore": 65, "assessedAt": "2026-08-20T16:30:00Z" },
+    { "id": 8, "inspectionCenterId": 5, "modelId": 2100, "modelName": "Elantra", "riskScore": 45, "assessedAt": "2026-08-24T08:45:00Z" },
+    { "id": 9, "inspectionCenterId": 1, "modelId": 1861, "modelName": "Accord", "riskScore": 81, "assessedAt": "2026-09-02T09:10:00Z" },
+    { "id": 10, "inspectionCenterId": 1, "modelId": 1863, "modelName": "Civic", "riskScore": 35, "assessedAt": "2026-09-03T10:20:00Z" },
+    { "id": 11, "inspectionCenterId": 1, "modelId": 1865, "modelName": "CR-V", "riskScore": 70, "assessedAt": "2026-09-04T11:35:00Z" },
+    { "id": 12, "inspectionCenterId": 2, "modelId": 2207, "modelName": "Camry", "riskScore": 67, "assessedAt": "2026-09-07T12:50:00Z" },
+    { "id": 13, "inspectionCenterId": 2, "modelId": 2208, "modelName": "Corolla", "riskScore": 45, "assessedAt": "2026-09-08T14:05:00Z" },
+    { "id": 14, "inspectionCenterId": 2, "modelId": 2210, "modelName": "RAV4", "riskScore": 65, "assessedAt": "2026-09-09T15:20:00Z" },
+    { "id": 15, "inspectionCenterId": 3, "modelId": 2021, "modelName": "C-MAX", "riskScore": 55, "assessedAt": "2026-09-10T16:35:00Z" },
+    { "id": 16, "inspectionCenterId": 3, "modelId": 1783, "modelName": "Focus", "riskScore": 80, "assessedAt": "2026-09-11T08:50:00Z" },
+    { "id": 17, "inspectionCenterId": 4, "modelId": 1900, "modelName": "Altima", "riskScore": 80, "assessedAt": "2026-09-14T10:05:00Z" },
+    { "id": 18, "inspectionCenterId": 4, "modelId": 1901, "modelName": "Sentra", "riskScore": 75, "assessedAt": "2026-09-15T11:20:00Z" },
+    { "id": 19, "inspectionCenterId": 5, "modelId": 2100, "modelName": "Elantra", "riskScore": 42, "assessedAt": "2026-09-16T12:35:00Z" },
+    { "id": 20, "inspectionCenterId": 5, "modelId": 2102, "modelName": "Tucson", "riskScore": 50, "assessedAt": "2026-09-17T13:50:00Z" }
+  ]
+}
