@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
-import {RouterOutlet} from '@angular/router';
+import {Component, signal} from '@angular/core';
+import {RouterLink, RouterOutlet} from '@angular/router';
 import {MatToolbar, MatToolbarRow} from '@angular/material/toolbar';
+import {LanguageSwitcher} from '../language-switcher/language-switcher';
 
 @Component({
   imports: [
     RouterOutlet,
     MatToolbarRow,
-    MatToolbar
+    MatToolbar,
+    LanguageSwitcher,
+    RouterLink
   ],
   selector: 'app-layout',
   styleUrl: './layout.css',
@@ -14,5 +17,10 @@ import {MatToolbar, MatToolbarRow} from '@angular/material/toolbar';
 })
 export class Layout {
   HertzLogoUrl: string = 'https://www.hertz.com';
-
+  options = signal([
+    {link: '/home', label: 'option.home'},
+    {link: '/about', label: 'option.about'},
+    {link: '/learning/categories', label: 'option.categories'},
+    {link: '/learning/courses', label: 'option.courses'}
+  ]);
 }
