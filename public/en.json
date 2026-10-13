@@ -1,0 +1,44 @@
+{
+  "option": {
+    "home": "Fleet Safety Overview",
+    "about": "New Safety Assessment"
+
+  },
+  "fleet-safety-overview": {
+    "title": "Fleet Safety Overview",
+    "content": "Monitor Vehicle Safety Assessments Across Inspection Centers.",
+    "inspection-centers": {
+      "cards": {
+        "title": "Inspection Centers",
+        "model-name": "Model Name",
+        "risk-score": "Risk Score",
+        "footer": {
+          "assessed-models": "Assessed Models",
+          "high-risk-models": "High Risk Models"
+        }
+      }
+    }
+  },
+  "new-safety-assessment": {
+    "title": "New Safety Assessment", ,
+    "form": {
+      "inspection-center": {
+        "label": "Inspection Center",
+        "placeholder": "Select an Inspection Center"
+      },
+      "vehicle-model": "Vehicle Model",
+      "risk-score": {
+        "label": "Risk Score",
+        "placeholder": "Enter the Risk Score"
+      },
+      "submit-button": {
+        "label": "Submit"
+      }
+    }
+  },
+  "page-not-found": {
+    "title": "Page not found",
+    "content": "The path <strong>{{ invalid_path }}</strong> is not valid.",
+    "go-home": "Go Home"
+  }
+}

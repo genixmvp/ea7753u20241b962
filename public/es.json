@@ -1,0 +1,44 @@
+{
+  "option": {
+    "home": "Seguridad general de la flota",
+    "about": "Nueva evaluacion de seguridad"
+
+  },
+  "fleet-safety-overview": {
+    "title": "Seguridad general de la flota",
+    "content": "Monitorear las evaluaciones de seguridad de los vehiculos en los centros de inspección.",
+    "inspection-centers": {
+      "cards": {
+        "title": "Centros de inspección",
+        "model-name": "Nombre del modelo",
+        "risk-score": "Puntuacion de riesgo",
+        "footer": {
+          "assessed-models": "Modelos evaluados",
+          "high-risk-models": "Modelos de alto riesgo"
+        }
+      }
+    }
+  },
+  "new-safety-assessment": {
+    "title": "Nueva evaluacion de seguridad",
+    "form": {
+      "inspection-center": {
+        "label": "Centro de inspección",
+        "placeholder": "Seleccionar un centro de inspección"
+      },
+      "vehicle-model": "Modelo de vehículo",
+      "risk-score": {
+        "label": "Puntuación de riesgo",
+        "placeholder": "Ingresar la puntuación de riesgo"
+      },
+      "submit-button": {
+        "label": "Enviar"
+      }
+    }
+  },
+  "page-not-found": {
+    "title": "Pagina no encontrada",
+    "content": "La ruta <strong>{{ invalid_path }}</strong> no es válida.",
+    "go-home": "Ir a la página principal"
+  }
+}
