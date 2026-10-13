@@ -8,6 +8,7 @@
     { "id": 6, "name": "New York Inspection Center", "make": "BMW", "riskThreshold": 80 }
   ],
   "safety-assessments": [
+
     { "id": 1, "inspectionCenterId": 1, "modelId": 1861, "modelName": "Accord", "riskScore": 38, "assessedAt": "2026-08-04T09:00:00Z" },
     { "id": 2, "inspectionCenterId": 1, "modelId": 1863, "modelName": "Civic", "riskScore": 87, "assessedAt": "2026-08-06T10:15:00Z" },
     { "id": 3, "inspectionCenterId": 1, "modelId": 1865, "modelName": "CR-V", "riskScore": 63, "assessedAt": "2026-08-10T11:30:00Z" },
