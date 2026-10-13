@@ -1,7 +1,7 @@
 import {BaseResource, BaseResponse} from '../../shared/infrastructure/base-response';
 
 export interface SafetyAssessmentsResponse extends BaseResponse {
-  safetyAssessments: SafetyAssessmentResource[];
+  "safety-assessments": SafetyAssessmentResource[];
 }
 
 export interface SafetyAssessmentResource extends BaseResource {

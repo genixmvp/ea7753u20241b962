@@ -4,14 +4,14 @@ import {MakeEnum} from './make-enum';
 export class InspectionCenter implements BaseEntity {
   readonly #id: number;
   readonly #name: string;
-  readonly #make: MakeEnum;
+  readonly #make: string;
   readonly #riskThreshold: number;
 
 
   constructor(props: {
     id: number;
     name: string;
-    make: MakeEnum;
+    make: string;
     riskThreshold: number;
 
   }) {

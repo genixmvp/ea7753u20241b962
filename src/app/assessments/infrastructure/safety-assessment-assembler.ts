@@ -5,7 +5,7 @@ import {DateTime} from '../../shared/domain/model/date-time';
 
 export class SafetyAssessmentAssembler implements BaseAssembler<SafetyAssessment, SafetyAssessmentResource, SafetyAssessmentsResponse> {
   toEntitiesFromResponse(response: SafetyAssessmentsResponse): SafetyAssessment[] {
-    return response.safetyAssessments.map((resource) =>
+    return response["safety-assessments"].map((resource) =>
       this.toEntityFromResource(resource as SafetyAssessmentResource),
     );
   }
