@@ -1,6 +1,9 @@
 {
   "name": "ea7753u20241b962",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Examen parcial",
+  "author": "Carolina Navarro",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
